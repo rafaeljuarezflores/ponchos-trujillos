@@ -4,7 +4,7 @@
 
 .NavBar{
     padding: 1.3em 0 1.3em 1.8em;
-    border: 2px solid white;
+    border: 1px solid white;
     border-radius: 10px;
 
     *{
@@ -15,14 +15,14 @@
     #nombre{
         font-family: Bebas Neue;
         letter-spacing: 10px;
-        font-size: 1.5em;
+        font-size: 1.4em;
     }
     
     .items{
         display: inline;
         float: right;
         *{
-            font-size: 1.8em;
+            font-size: 1.6em;
             margin-right: 3em;
             font-family: Antonio;
         }
