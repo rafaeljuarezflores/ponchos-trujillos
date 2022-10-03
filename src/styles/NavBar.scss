@@ -66,3 +66,22 @@
         }
     }
 }
+
+@media(max-width: 395px){
+    .NavBar{
+        padding: 1em 0 1em 0.5em;
+        border: 2px solid white;
+
+        #nombre{
+            letter-spacing: 2px;
+            font-size: 1.2em;
+        }
+
+        .items{
+            *{
+                margin-right: 0.7em;
+                font-size: 1.1em;
+            }
+        }
+    }
+}
