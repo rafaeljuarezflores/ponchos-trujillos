@@ -3,8 +3,9 @@
 .Men, .Women{
     display: grid;
     grid-template-columns: auto auto ;
-    gap: 8% 10%;
-    padding: 8% 14%;
+    gap: 8% 25%;
+    margin: 6% 0 11% 0;
+    justify-content: center;
 }
 
 
@@ -14,8 +15,8 @@
 }
 
 .image{
-    width: 22vw;
-    height: 60vh;
+    width: 20vw;
+    max-height: 80vh;
     border-radius: 20px;
 }
 
@@ -35,116 +36,40 @@
     left: 10rem;
 }
 
-//modal----------------------------------------------------------------------------------------
 
-.Modal{
-    background-color: white;
-    height: 100%;
-    display: grid;
-    grid-template-columns: auto auto ;
+//Media_Queries-------------------------------------------------------------
 
-    .image_modal{
-        padding: 5%;
-    }
-
-    .Información {
-        padding-top: 10%;
-        margin-left: 13%;
-        width: 80%;
-
-        .close_modal{
-            position: absolute;
-            top: 2%;
-            right: 2%;
-            background: none;
-            border: none;
-            font-size: 2em;
-            cursor: pointer;
-        }  
-
-        .title{
-            font-size: 2em;
-            font-family: Bebas Neue;
-            letter-spacing: 2px;
-            margin-bottom: 10%;
-        }
-
-        .descripción{
-            font-size: 1.6em;
-            margin-bottom: 7%;
-        }
-
-
-        .Buy-content{
-            display: flex;
-            width: 80%;
-            align-items: center;
-            justify-content: center;
-
-
-            .price_modal{
-                padding: 0.2em 0.9em;
-                font-size: 2em;
-                margin-right: 1.5em;
-                border: 1px solid black;
-                background-color: rgb(221, 140, 140);
-            }
-
-            .comprar{
-                background: none;
-                font-size: 1.8em;
-                padding: 0.25em 0.9em;
-                background-color: rgb(132, 212, 212);
-                cursor: pointer;
-                text-decoration: none;
-                color: black;
-                border: 1px solid black;
-            }
-
-        }
-        
+@media(max-width: 1280px){
+    .image{
+        width: 24vw;
+        max-height: 90vh;
     }
 }
 
-.Modal2{
-    background-color: white;
-    height: 100%;
-    padding: 6% 30%;
-    .price_modal_2{
-        font-size: 5em;
-        text-align: center;
-        font-family: Bebas Neue;
+@media(max-width: 860px){
+    .image{
+        width: 24vw;
+        max-height: 90vh;
     }
 
-    .close_modal_2{
-        position: absolute;
-        top: 2%;
-        right: 2%;
-        background: none;
-        border: none;
-        font-size: 2em;
-        cursor: pointer;
-    } 
-}
-
-.formulario{
-    display: grid;
-    #CardElement{
-        margin-top: -2em;
-    }   
-    .Comprar{
-        font-size: 2.5em;
-        margin-top: 1em;
-        padding-top: 0.2em;
-        padding-bottom: 0.2em;
-        background: rgb(64, 141, 128);
-        border-radius: 10px;
-        color: white;
-        cursor: pointer;
-    }
-
-    .Comprar:hover{
-        background: rgb(71, 184, 114);
+    .price{
+        font-size: 1.2em;
+        padding: 2% 10%;
+        left: 5rem;
     }
 }
 
+@media(max-width: 578px){
+    .Men, .Women{
+        display: grid;
+        grid-template-columns: auto;
+        gap: 3%;
+        margin: 15% 0 40% 0;
+    }
+
+    .image{
+        width: 50vw;
+        max-height: 90vh;
+    }
+
+}

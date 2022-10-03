@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import Modal from "react-modal";
 import "../styles/Article.scss";
+import "../styles/Modal.scss";
+import "../styles/Modal2.scss";
 import {loadStripe} from '@stripe/stripe-js'
 import {CardElement, Elements, useStripe, useElements} from '@stripe/react-stripe-js'
 

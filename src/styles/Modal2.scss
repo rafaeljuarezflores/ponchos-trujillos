@@ -1,0 +1,80 @@
+.Modal2{
+    background-color: white;
+    height: 100%;
+    padding: 6% 30%;
+    .price_modal_2{
+        font-size: 5em;
+        text-align: center;
+        font-family: Bebas Neue;
+    }
+
+    .close_modal_2{
+        position: absolute;
+        top: 2%;
+        right: 2%;
+        background: none;
+        border: none;
+        font-size: 2em;
+        cursor: pointer;
+    } 
+}
+
+.formulario{
+    display: grid;
+    #CardElement{
+        margin-top: -2em;
+    }   
+    .Comprar{
+        font-size: 2.5em;
+        margin-top: 1em;
+        padding-top: 0.2em;
+        padding-bottom: 0.2em;
+        background: rgb(64, 141, 128);
+        border-radius: 10px;
+        color: white;
+        cursor: pointer;
+    }
+
+    .Comprar:hover{
+        background: rgb(71, 184, 114);
+    }
+}
+
+@media(max-width: 1300px){
+    .Modal2{
+        background-color: white;
+        height: 100%;
+        padding: 6% 14%;
+    }
+    
+}
+
+@media(max-width: 768px){
+    .Modal2{
+        background-color: white;
+        height: 100%;
+        padding: 6% 10%;
+        .price_modal_2{
+            font-size: 4em;
+            text-align: center;
+            font-family: Bebas Neue;
+        }
+    
+        .close_modal_2{
+            position: absolute;
+            top: 2%;
+            right: 2%;
+            background: none;
+            border: none;
+            font-size: 2em;
+            cursor: pointer;
+        } 
+    }
+    
+    .formulario{
+        display: grid;
+        #CardElement{
+            padding: 2em;
+        }  
+    }
+}
