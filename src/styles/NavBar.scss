@@ -8,7 +8,6 @@
     border-radius: 10px;
 
     *{
-    font-size: 1.2em;
     color: white;
     text-decoration: none;
     }
@@ -16,12 +15,14 @@
     #nombre{
         font-family: Bebas Neue;
         letter-spacing: 10px;
+        font-size: 2em;
     }
     
     .items{
         display: inline;
         float: right;
         *{
+            font-size: 1.8em;
             margin-right: 4em;
             font-family: Antonio;
         }
@@ -32,13 +33,17 @@
     .NavBar{
         padding: 1.3em 0 1.3em 1.8em;
         border: 2px solid white;
-    
-        *{
-        font-size: 1em;
-        }
 
         #nombre{
             letter-spacing: 5px;
+            font-size: 1.3em;
+        }
+
+        .items{
+            *{
+                margin-right: 1.2em;
+                font-size: 1.2em;
+            }
         }
     }
 }
@@ -47,18 +52,16 @@
     .NavBar{
         padding: 1em 0 1em 1em;
         border: 2px solid white;
-    
-        *{
-        font-size: 0.9em;
-        }
 
         #nombre{
             letter-spacing: 2px;
+            font-size: 1.4em;
         }
 
         .items{
             *{
                 margin-right: 1.5em;
+                font-size: 1.3em;
             }
         }
     }
